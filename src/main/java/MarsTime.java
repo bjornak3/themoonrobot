@@ -24,7 +24,7 @@ public class MarsTime {
             throw new Exception("Hours out of bound");
         }
 
-        if (minute > maxHours || minute < 0) {
+        if (minute > maxMinutes || minute < 0) {
             throw new Exception("Hours out of bound");
         }
 
